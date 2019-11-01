@@ -10,7 +10,14 @@
 <br>In the terminal, it will print the parsed cron expression in a dict format
 <br>Meanwhile, it will also output a file out.txt
 <br>For Example : 
-<br>`{'minutes': [0, 15, 30, 45], 'hours': [0], 'days': [1, 15], 'months': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 'weeks': [1, 2, 3, 4, 5], 'command': '/user/bin/'}`
+```.text
+minute 0 15 30 45
+hour 0
+day 1 2
+month 1 2 3 4 5 6 7 8 9 10 11 12
+week 1 2 3 4 5
+command /user/bin/
+```
 
 * Use cases:
     1. The parser only works for standard cron expression 
